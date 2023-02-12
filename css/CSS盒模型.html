@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS盒模型 | 前端博客</title>
+    <meta name="generator" content="VuePress 1.9.8">
+    
+    <meta name="description" content="一条咸鱼的分享之路">
+    
+    <link rel="preload" href="/assets/css/0.styles.71b3e9f3.css" as="style"><link rel="preload" href="/assets/js/app.86b4f950.js" as="script"><link rel="preload" href="/assets/js/2.f6d89a84.js" as="script"><link rel="preload" href="/assets/js/9.1191ce40.js" as="script"><link rel="prefetch" href="/assets/js/10.ca2e26cc.js"><link rel="prefetch" href="/assets/js/11.a3e1aedc.js"><link rel="prefetch" href="/assets/js/12.3bdd7b61.js"><link rel="prefetch" href="/assets/js/13.a650e9e0.js"><link rel="prefetch" href="/assets/js/14.36707e48.js"><link rel="prefetch" href="/assets/js/15.e3e8d8d3.js"><link rel="prefetch" href="/assets/js/16.943f8b19.js"><link rel="prefetch" href="/assets/js/17.806625e9.js"><link rel="prefetch" href="/assets/js/18.68bc2032.js"><link rel="prefetch" href="/assets/js/19.2eae62a4.js"><link rel="prefetch" href="/assets/js/20.8537a9b7.js"><link rel="prefetch" href="/assets/js/21.058bc3ad.js"><link rel="prefetch" href="/assets/js/22.e6c51d40.js"><link rel="prefetch" href="/assets/js/23.e1ab6912.js"><link rel="prefetch" href="/assets/js/24.9625ffda.js"><link rel="prefetch" href="/assets/js/3.8d503b6a.js"><link rel="prefetch" href="/assets/js/4.ce7de330.js"><link rel="prefetch" href="/assets/js/5.3ab27457.js"><link rel="prefetch" href="/assets/js/6.0c96cb81.js"><link rel="prefetch" href="/assets/js/7.0a45b1c3.js"><link rel="prefetch" href="/assets/js/8.106e0d8b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.71b3e9f3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">前端博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Html</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/html/HTML5语义化与新特性.html" class="sidebar-link">HTML5语义化与新特性</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Css</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/css/BFC.html" class="sidebar-link">BFC</a></li><li><a href="/css/清除浮动.html" class="sidebar-link">清除浮动</a></li><li><a href="/css/CSS选择器.html" class="sidebar-link">CSS选择器</a></li><li><a href="/css/CSS盒模型.html" class="active sidebar-link">CSS盒模型</a></li><li><a href="/css/Position定位.html" class="sidebar-link">Position定位</a></li><li><a href="/css/元素水平垂直居中方法.html" class="sidebar-link">元素水平垂直居中方法</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>JavaScript</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/js/Promise.html" class="sidebar-link">Promise</a></li><li><a href="/js/防抖和节流.html" class="sidebar-link">防抖和节流</a></li><li><a href="/js/浅拷贝和深拷贝.html" class="sidebar-link">浅拷贝和深拷贝</a></li><li><a href="/js/继承的几种方式.html" class="sidebar-link">继承的几种方式</a></li><li><a href="/js/JS单线程和EventLoop.html" class="sidebar-link">JS单线程和Event loop</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Vue</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue/vue组件化.html" class="sidebar-link">Vue组件化</a></li><li><a href="/vue/vue的响应式原理.html" class="sidebar-link">vue 的响应式原理</a></li><li><a href="/vue/Vue虚拟DOM和diff算法.html" class="sidebar-link">Vue虚拟DOM和diff算法</a></li><li><a href="/vue/Typescript在Vue项目中用法.html" class="sidebar-link">Typescript在Vue项目中用法</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="css盒模型"><a href="#css盒模型" class="header-anchor">#</a> CSS盒模型</h1> <h4 id="一、什么是css盒模型"><a href="#一、什么是css盒模型" class="header-anchor">#</a> 一、什么是CSS盒模型</h4> <h6 id="css的盒模型由里到外包括-content-内容-、padding-内边距-、border-边框-、margin-外边距-四个部分。"><a href="#css的盒模型由里到外包括-content-内容-、padding-内边距-、border-边框-、margin-外边距-四个部分。" class="header-anchor">#</a> css的盒模型由里到外包括：content（内容）、padding（内边距）、border（边框）、margin（外边距）四个部分。</h6> <h6 id="css盒模型有两种-标准模型-浏览器默认-ie模型"><a href="#css盒模型有两种-标准模型-浏览器默认-ie模型" class="header-anchor">#</a> css盒模型有两种：标准模型（浏览器默认）+ IE模型</h6> <h4 id="二、标准模型-ie模型的区别"><a href="#二、标准模型-ie模型的区别" class="header-anchor">#</a> 二、标准模型+IE模型的区别</h4> <h6 id="ie盒模型与w3c盒模型的唯一区别就是元素的宽度。"><a href="#ie盒模型与w3c盒模型的唯一区别就是元素的宽度。" class="header-anchor">#</a> IE盒模型与W3C盒模型的唯一区别就是元素的宽度。</h6> <div class="language- extra-class"><pre class="language-text"><code>标准盒子模型（content-box）：元素的宽度width=内容宽度
+ 
+IE盒子模型（border-box）：元素的宽度width=内容宽度 + padding + border
+</code></pre></div><h5 id="_1-css如何设置两种盒模型"><a href="#_1-css如何设置两种盒模型" class="header-anchor">#</a> 1.CSS如何设置两种盒模型</h5> <div class="language-css extra-class"><pre class="language-css"><code>//在不设置box-sizing的情况下，box-sizing 默认是<span class="token punctuation">(</span>标准盒子<span class="token punctuation">)</span>content-box .
+ 
+<span class="token comment">/* 标准模型 */</span>
+<span class="token property">box-sizing</span><span class="token punctuation">:</span>content-box<span class="token punctuation">;</span>
+ <span class="token comment">/*IE模型*/</span>
+<span class="token property">box-sizing</span><span class="token punctuation">:</span>border-box<span class="token punctuation">;</span>
+</code></pre></div><h5 id="_2-js如何获取盒子对应宽高"><a href="#_2-js如何获取盒子对应宽高" class="header-anchor">#</a> 2.JS如何获取盒子对应宽高</h5> <div class="language-js extra-class"><pre class="language-js"><code>dom<span class="token punctuation">.</span>style<span class="token punctuation">.</span>width<span class="token operator">/</span>height
+<span class="token comment">//缺点：仅适用于有内联样式的</span>
+
+dom<span class="token punctuation">.</span>currentStyle<span class="token punctuation">.</span>width<span class="token operator">/</span>height
+<span class="token comment">//优点：获取渲染之后的运行的结果，相对更准确</span>
+<span class="token comment">//缺点：只有IE浏览器支持</span>
+
+window<span class="token punctuation">.</span><span class="token function">getComputedStyle</span><span class="token punctuation">(</span>dom<span class="token punctuation">)</span><span class="token punctuation">.</span>width<span class="token operator">/</span>height
+<span class="token comment">//优点：获取渲染之后的运行的结果，相对更准确，但兼容性更好</span>
+
+dom<span class="token punctuation">.</span><span class="token function">getBoundingClientRect</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>width<span class="token operator">/</span>height
+<span class="token comment">//原理同上，经常用于计算元素的绝对位置（根据视窗左顶点获得），getBoundingClientRect()方法可获得四个值：left/top/width/height</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/css/CSS选择器.html" class="prev">
+        CSS选择器
+      </a></span> <span class="next"><a href="/css/Position定位.html">
+        Position定位
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.86b4f950.js" defer></script><script src="/assets/js/2.f6d89a84.js" defer></script><script src="/assets/js/9.1191ce40.js" defer></script>
+  </body>
+</html>
